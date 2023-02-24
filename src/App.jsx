@@ -1,6 +1,7 @@
 import React from 'react';
 import {UseStateInput,UseStateTest} from '../src/components/hooks/UseStateTest.jsx';
 import UseEffectTest from './components/hooks/UseEffectTest.jsx';
+import UseRefTest from './components/hooks/UseRefTest.jsx';
 import Seperator from './components/Seperator.jsx';
 
 // import './App.css';
@@ -12,6 +13,9 @@ function App() {
       <UseStateInput/>
       <Seperator/>
       <UseEffectTest/>
+      <Seperator/>
+      <UseRefTest/>
+      <Seperator/>
     </div>
   );
 }

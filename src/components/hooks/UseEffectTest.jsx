@@ -6,7 +6,7 @@ function UseEffectTest() {
     
     useEffect(()=>{
         axios.get('https://jsonplaceholder.typicode.com/posts').then((response)=>{   
-            setPosts(response.data);
+            setPosts(response.data.slice(0,5));
         })
     },[])
 
@@ -14,7 +14,7 @@ function UseEffectTest() {
     <div>
         {posts.map((post)=>
             <h1 key={post.id}>{post.title}</h1>
-        )};
+        )}
     </div>   
   )
 }
