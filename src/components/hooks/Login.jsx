@@ -12,7 +12,7 @@ function Login() {
             color: 'red',
         }}> {username}</h1>
         <button onClick={()=>{
-            setUsername('bannaaaaa');
+            username?setUsername('') : setUsername('bannaaaa');          
         }}>banna</button>
     </div>
   );

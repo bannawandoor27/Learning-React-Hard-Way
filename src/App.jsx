@@ -9,11 +9,11 @@ import Seperator from './components/Seperator.jsx';
 function App() {
   return (
     <div className="App">
-      <UseStateTest/>
+      {/* <UseStateTest/>
       <Seperator/>
       <UseStateInput/>
       <Seperator/>
-      <UseEffectTest/>
+      <UseEffectTest/> */}
       <Seperator/>
       <UseRefTest/>
       <Seperator/>
